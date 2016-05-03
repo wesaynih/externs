@@ -2,7 +2,7 @@
   "name": "nih-externs",
   "version": "0.0.1",
   "author": "Robbert Broersma <mail@robbertbroersma.nl>",
-  "description": "NIH Externs",
+  "description": "JavaScript API definitions with JSDoc annotations for Google Closure Compiler.",
   "contributors": {
     "name": "Robbert Broersma",
     "mail": "mail@robbertbroersma.nl"
@@ -12,7 +12,9 @@
     "url": "https://github.com/wesaynih/externs"
   },
   "keywords": [
-    "frameless"
+    "closure-compiler",
+    "externs",
+    "jsdoc"
   ],
   "license": "Apache-2.0",
   "private": true,
