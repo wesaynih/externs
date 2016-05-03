@@ -1,0 +1,13 @@
+{
+  "extends": "eslint:recommended",
+  "env": {
+  },
+  "rules": {
+    "no-unused-vars": ["off"],
+    "no-undef": ["off"],
+    "semi": ["error", "always"],
+    "no-trailing-spaces": ["error"],
+    "strict": ["error", "never"],
+    "indent": ["error", 4]
+  }
+}

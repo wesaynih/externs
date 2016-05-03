@@ -1,0 +1,29 @@
+{
+  "name": "nih-externs",
+  "version": "0.0.1",
+  "author": "Robbert Broersma <mail@robbertbroersma.nl>",
+  "description": "NIH Externs",
+  "contributors": {
+    "name": "Robbert Broersma",
+    "mail": "mail@robbertbroersma.nl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesaynih/externs"
+  },
+  "keywords": [
+    "frameless"
+  ],
+  "license": "Apache-2.0",
+  "private": true,
+  "engine": {
+    "node": ">=1.0"
+  },
+  "devDependencies": {
+    "eclint": "~1.1.5",
+    "eslint": "~2.8.0"
+  },
+  "scripts": {
+    "test": "eslint lib/ && eclint check *"
+  }
+}
